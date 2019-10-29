@@ -5,9 +5,8 @@ export default {
   title: "Input/Textarea"
 };
 
-export const Basic = () => <Textarea />;
-export const Disabled = () => <Textarea disabled />;
-export const Placeholder = () => <Textarea placeholder="Sample Placeholder" />;
-export const Rows = () => <Textarea rows={20} />;
-export const Cols = () => <Textarea cols={20} />;
-export const Value = () => <Textarea>Sample value</Textarea>;
+export const disabled = () => <Textarea disabled />;
+export const placeholder = () => <Textarea placeholder="Sample Placeholder" />;
+export const rows = () => <Textarea rows={20} />;
+export const cols = () => <Textarea cols={20} />;
+export const value = () => <Textarea>Sample value</Textarea>;

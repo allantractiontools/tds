@@ -5,6 +5,5 @@ export default {
   title: "Input/TextInput"
 };
 
-export const Basic = () => <TextInput />;
-export const Disabled = () => <TextInput disabled />;
-export const Placeholder = () => <TextInput placeholder="Sample Placeholder" />;
+export const disabled = () => <TextInput disabled />;
+export const placeholder = () => <TextInput placeholder="Sample Placeholder" />;

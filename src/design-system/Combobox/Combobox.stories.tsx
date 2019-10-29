@@ -6,7 +6,7 @@ export default {
   title: "Input/Combobox"
 };
 
-export const Data = () => (
+export const data = () => (
   <Combobox
     data={[{ text: "Item 1", value: "1" }, { text: "Item 2", value: "2" }]}
   />
