@@ -23,7 +23,7 @@ Collection of reusable components for building Traction Tools
 
      http://localhost:6006
 
-2. `yarn run deploy-storybook`
+2. `yarn deploy`
 
    - For deploying storybook to
 
