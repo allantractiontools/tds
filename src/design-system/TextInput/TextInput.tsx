@@ -1,12 +1,12 @@
 import React from "react";
 
-export interface TextInnputProps {
+export interface TextInputProps {
   disabled?: boolean;
   placeholder?: string;
 }
 
-const TextInnput: React.SFC<TextInnputProps> = props => {
+const TextInput: React.SFC<TextInputProps> = props => {
   return <input type="text" {...props} />;
 };
 
-export default TextInnput;
+export default TextInput;
