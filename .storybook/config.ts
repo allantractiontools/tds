@@ -1,5 +1,6 @@
 import { configure, addParameters } from "@storybook/react";
 import theme from "./theme";
+import "bootstrap/dist/css/bootstrap-grid.min.css";
 
 // Option defaults.
 addParameters({
