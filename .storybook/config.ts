@@ -1,6 +1,6 @@
 import { configure, addParameters } from "@storybook/react";
 import theme from "./theme";
-import "bootstrap/dist/css/bootstrap-grid.min.css";
+import "../src/design-system/scss/tds.scss";
 
 // Option defaults.
 addParameters({
